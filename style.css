@@ -1,0 +1,166 @@
+*{
+    margin:0px;
+    font-family: "inter";
+}
+
+#titulo-menusuperior{
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-top: 150px;
+    position: absolute;
+    left: 80px;
+    bottom: 558px;
+
+
+}
+
+#texto-menusuperior{
+    font-family: inter;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    position: absolute;
+    width: 1024px;
+    height: 28px;
+    left: 80px;
+    bottom: 458px;
+
+
+}
+
+#menusuperior{
+    background-color: #303030;
+    color: #F5F5F5;
+    padding: 80px;
+    height: 475px;
+    width: 1440px;
+
+
+}
+
+#menuinformacional{
+    background-color: #F9F9F9;
+    height: 145px;
+    width: 1440px;
+    padding: 80px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-family: inter ;
+    font-style: normal;
+
+}
+
+.numero{
+    margin-left: 200px;
+    margin-top: 45px;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 40px;
+    text-align: left;
+    
+}
+
+.informação{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 0px;
+    line-height: 25px;
+    text-align: left;
+    position: absolute;
+    width: 354px;
+    height: 67px;
+    color: #000000
+    ;
+
+}
+
+#menudescricao{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    width: 1600px;
+
+}
+
+#titulo-menudescricao{
+    font-size: 45px;
+    position: absolute;
+    top: 1050px;
+    left: 120px;
+
+    
+}
+
+#texto-menudescricao{
+    font-size: 25px;
+    position: absolute;
+    top: 1150px;
+    left: 120px;
+}
+
+#imagem-menudescricao{
+    margin-left: 950px;
+    
+}
+
+#formulario{
+    background-color: #303030;
+    position: absolute;
+    top: 1650px;
+    width: 1590px;
+    height: 638px;
+}
+
+#texto-formulario{
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 400px;
+
+}
+
+input{
+    background-color: #FFFFFF;
+    color: #000000 30%;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 950px;
+    font-weight: bold;
+    font-style: bold;
+    border-radius: 10px;
+    line-height: 30px;
+    margin-left: 480px;
+    margin-top: 50px;
+    width: 508px;
+    height: 72px;
+    padding-left: 25px;
+
+
+}
+
+#botao-formulario{
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 500px;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height:10px;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: 80px;
+    width: 286px;
+    height: 74px;
+    cursor: pointer;
+}
+  
+button:hover{
+   transform: translateY(-7px);
+   box-shadow: 0px 10px 15px #915710cf;
+   transition-duration: 0.5s;
+}
